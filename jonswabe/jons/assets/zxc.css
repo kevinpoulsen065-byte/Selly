@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.swal2-confirm {
+    background-color: gray !important;
+    color: white !important;
+}
+.swal2-popup {
+    background-color: black !important;
+    border: 2px solid white !important; 
+    color: white;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Inconsolata', monospace; */
+    color: #ffffff;
+}
+
+textarea {
+    resize: none;
+}
+
+.block {
+    width: 100%;
+}
+
+.black-vatican,
+.black-vatican:hover,
+.black-vatican:active,
+.black-vatican:focus {
+    border-color: #ffffff;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #121212;
+    box-shadow: 0 0 5px #ffffff;
+    border-color: #ffffff;
+    background-color: #121212;
+}
+
+.px-1 {
+    margin-top: auto;
+}
+
+#cards {
+    background-color: #121212;
+    color: #ffffff;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: .9em;
+}
+
+img {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+}
+
+#counter {
+    font-size: 80%;
+}
+
+.btn-outline-light,
+.btn-outline-light:hover {
+    background-color: #121212;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+#cvv-show-btn,
+#ccn-show-btn,
+#dead-show-btn {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#cvv-clear-btn,
+#ccn-clear-btn,
+#dead-clear-btn {
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 5px;
+}
+.material-symbols-outlined {
+    vertical-align: top;
+}
+
+#cvv-div,
+#ccn-div,
+#dead-div {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80%;
+}
+
+.badge {
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 90%;
+}
+
+.float-right {
+    float: right;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 125px; 
+    height: 8px; 
+    background: #ccc; 
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #333; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #333;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#concurrent-value {
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+.progress-bar-container {
+    background-color: #333; 
+    color: #fff; 
+}
+
+.progress-bar {
+    background-color: #555; 
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.textarea-container {
+    display: flex;
+    position: relative;
+}
+
+.line-numbers {
+    padding: 5px;
+    background-color: #333;
+    color: #ccc;
+    text-align: right;
+    user-select: none;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 1px solid #555;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+#lineNumbers {
+    min-width: 25px;
+}
+
+textarea#modalInput {
+    width: 100%;
+    font-family: monospace;
+    padding-left: 10px;
+    background-color: transparent;
+    height: 250px;
+    box-sizing: border-box;
+    overflow-x: auto; 
+    overflow-y: auto; 
+    white-space: pre; 
+    word-wrap: normal;
+}
+
+.textarea-container {
+    position: relative;
+    flex-grow: 1;
+}
+
+#forwarderResult {
+    white-space: pre-line;
+    word-break: break-all;
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
